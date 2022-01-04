@@ -33,10 +33,7 @@ export default class NewBill {
   };
 
 
-
   /* istanbul ignore next */
-
-
   //! handling the justification file format
   handleFirestoreStorage = (fileName, file, matchExtension) => {
     const errorImgFormat = document.querySelector(".error-imageFormat")

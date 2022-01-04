@@ -154,12 +154,12 @@ export default class {
     //* OLD
     // bills.forEach((bill) => {
     //   $(`#open-bill${bill.id}`).click((e) =>
-    //     this.handleEditTicket(e, bill, bills)
+    //   this.handleEditTicket(e, bill, bills)
     //   );
     // });
 
     return bills
-
+    
   }
 
   // not need to cover this function by tests

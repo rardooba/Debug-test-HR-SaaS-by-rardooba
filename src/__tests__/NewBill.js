@@ -25,7 +25,7 @@ describe("Given I am connected as an employee", () => {
       expect(screen.getAllByText("Envoyer une note de frais")).toBeTruthy();
     });
 
-    //! vérif que le formulaire comporte 9 champs
+    //! vérif que le formulaire comporte 9 elts
     test("Then a form with nine fields should be rendered", () => {
       document.body.innerHTML = NewBillUI();
       //recup du bloc formulaire pour en tester la longueur (si = 9)
